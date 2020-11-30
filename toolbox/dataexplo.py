@@ -1,7 +1,7 @@
 # Import from standard library
 import matplotlib.pyplot as plt
 
-def distribution_plot():
+def distribution_plot(numerical_features):
     """Plot the distribution for a list of numerical features"""
     for numerical_feature in numerical_features:
         fig, ax =plt.subplots(1,3,figsize=(20,8))

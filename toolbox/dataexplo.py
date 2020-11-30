@@ -1,5 +1,6 @@
 # Import from standard library
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 def distribution_plot(numerical_features):
     """Plot the distribution for a list of numerical features"""
